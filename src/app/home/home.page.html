@@ -8,7 +8,30 @@
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <ion-button color="primary" (click)="getInfo()">
+      <ion-icon name="add-circle-outline" slot="icon-only"></ion-icon>点我
+    </ion-button>
+    <ion-badge color="dark" mode="md">3</ion-badge>  
   </div>
+  <p>Expand</p>
+  <ion-button expand="full" >expand-full</ion-button>
+  <ion-button expand="block" >expand-block</ion-button>
+  <p>Fill</p>
+  <ion-button fill="clear" >fill-clear</ion-button>
+  <ion-button fill="outline" >fill-outline</ion-button>
+  <ion-button fill="solid" >fill-solid</ion-button>
+  <p>Size</p>
+  <ion-button size="small" >size-small</ion-button>
+  <ion-button size="default" >size-default</ion-button>
+  <ion-button size="large" >size-large</ion-button>
+  <p>shape</p>
+  <ion-button shape="round" size="small">shape-round</ion-button>
+  <p>routerDirection</p>
+  <ion-button router-direction="back">router-direction-back</ion-button>
+  <ion-button router-direction="forward">router-direction-forward</ion-button>
+  <ion-button router-direction="root">router-direction-root</ion-button>
+  <p>strong</p>
+  <ion-button strong="true">strong-true</ion-button>
+  <p>type</p>
+  <ion-button type="submit">type-submit</ion-button>
 </ion-content>
